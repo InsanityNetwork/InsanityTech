@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "insanity:simple_unpolishing",
+    "ingredients": [
+        {
+            "item": "minecraft:polished_granite"
+        }
+    ],
+    "result": {
+        "item": "minecraft:granite"
+    }
+}
