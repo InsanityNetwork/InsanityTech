@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 1,
+    "ingredient": {
+        "tag": "insanity:red_sandstone_variants"
+    },
+    "result": "minecraft:red_sandstone"
+}

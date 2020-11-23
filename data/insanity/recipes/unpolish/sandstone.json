@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "insanity:sandstone_variants"
+        }
+    ],
+    "result": {
+        "item": "minecraft:sandstone"
+    }
+}
