@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#c#",
+        "---"
+    ],
+    "key": {
+        "#": {
+            "tag": "insanity:glass"
+        },
+        "c": {
+            "item": "minecraft:nether_star"
+        },
+        "-": {
+            "item": "minecraft:obsidian"
+        }
+    },
+    "result": {
+        "item": "minecraft:beacon"
+    }
+}
