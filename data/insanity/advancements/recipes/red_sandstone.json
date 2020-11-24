@@ -1,0 +1,33 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "insanity:unpolish/red_sandstone",
+            "insanity:unpolish/red_sandstone_stonecutter"
+        ]
+    },
+    "criteria": {
+        "has_stone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "insanity:red_sandstone_variants"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "insanity:unpolish/red_sandstone"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_stone",
+            "has_the_recipe"
+        ]
+    ]
+}

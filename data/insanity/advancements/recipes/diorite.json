@@ -1,0 +1,33 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "insanity:unpolish/diorite",
+            "insanity:unpolish/diorite_stonecutter"
+        ]
+    },
+    "criteria": {
+        "has_stone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:polished_diorite"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "insanity:unpolish/diorite"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_stone",
+            "has_the_recipe"
+        ]
+    ]
+}

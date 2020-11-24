@@ -1,0 +1,33 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "insanity:unpolish/granite",
+            "insanity:unpolish/granite_stonecutter"
+        ]
+    },
+    "criteria": {
+        "has_stone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:polished_granite"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "insanity:unpolish/granite"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_stone",
+            "has_the_recipe"
+        ]
+    ]
+}
