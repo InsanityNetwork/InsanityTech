@@ -5,3 +5,6 @@ execute as @e[type=#insanity:disable_drops, tag=!disabled] run function insanity
 
 #> Renewable shulkers
 execute as @e[type=shulker,nbt={ActiveEffects:[{Id:25b}]}] at @s run function insanity:duplicate
+
+#> Villager Tools
+function insanity:villager/tick
